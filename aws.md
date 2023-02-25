@@ -32,3 +32,34 @@ Responsible for security OFF the Cloud
 Service used to securely control access to your AWS resources.
 
 Controls authentication (who) and authorization (what they can do).
+
+### Dashboard
+
+1. Users
+2. User Groups
+3. Roles
+4. Policies
+
+### Root User vs. IAM User
+
+#### Root User
+
+- One per account
+- Unrestricted access
+- Difficult to restrict and revoke access
+
+Can perform
+- Close an AWS account
+- Change an AWS support plan
+- Change AWS account settings
+
+#### IAM User
+
+- Multiple per account
+- Users can be deleted or disabled
+- Easy to restrict access
+
+#### Best Practices
+
+- Always work in IAM account, not root account
+- Setup IAM users with least number of permissions needed
