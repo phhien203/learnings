@@ -26,3 +26,9 @@ Responsible for security OFF the Cloud
     - Regions
     - Availability Zones
     - Edge Locations
+
+### IAM
+
+Service used to securely control access to your AWS resources.
+
+Controls authentication (who) and authorization (what they can do).
