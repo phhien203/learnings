@@ -63,3 +63,14 @@ Can perform
 
 - Always work in IAM account, not root account
 - Setup IAM users with least number of permissions needed
+
+### Roles
+
+- Similar to a user (an identity with permissions)
+- Does not have credentials (passwords or keys)
+- Assumable, temporarily, by anyone who needs it
+- Users, User Groups, Roles -> Identities (the "who")
+
+Real-life analogy
+
+A role is like a hat. When you wear a hat, you have that role assigned. You can wear a hat of Parent, Software Engineer, Soccer Coach, Home Chief, Therapist.
