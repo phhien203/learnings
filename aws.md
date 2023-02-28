@@ -49,6 +49,7 @@ Controls authentication (who) and authorization (what they can do).
 - Difficult to restrict and revoke access
 
 Can perform
+
 - Close an AWS account
 - Change an AWS support plan
 - Change AWS account settings
@@ -74,3 +75,26 @@ Can perform
 Real-life analogy
 
 A role is like a hat. When you wear a hat, you have that role assigned. You can wear a hat of Parent, Software Engineer, Soccer Coach, Home Chief, Therapist.
+
+### Policy
+
+Who can do what to which resources and when.
+
+E.g. Allow IAM users to rotate their own credentials programmatically and in the console.
+
+```JSON
+{
+  "Statement": [
+    {
+      "Effect": "allow/deny",
+      "Action": "s3:DeleteBucket",
+      "Resource": "arn:aws:ec2:*:*:instance/instance-id",
+      "Condition": {
+        "condition": {
+          "key": "value"
+        }
+      }
+    }
+  ]
+}
+```
