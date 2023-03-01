@@ -98,3 +98,10 @@ E.g. Allow IAM users to rotate their own credentials programmatically and in the
   ]
 }
 ```
+
+### 2FA Authentication
+
+Two or more factors to authenticate (figure out who you are)
+- Something you know (password)
+- Something you have (phone or hard token)
+- Something you are (fingerprint)
