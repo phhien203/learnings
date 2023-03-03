@@ -114,3 +114,27 @@ Two or more factors to authenticate (figure out who you are)
 - Assign permissions to groups (made up of users) rather than to individual users
 - When assigning permissions (policies), give the least amount possible
 - Enforce MFA and strong password policies
+
+### Security and Compliance Services
+
+Infrastructure Protection:
+- AWS Shield
+- AWS Web Application Firewall
+
+Data Protection:
+- AWS Key Management System (KMS) and CloudHSM
+- AWS Certificate Manager (ACM)
+- AWS Secrets Manager
+- Amazon Macie
+
+Detection:
+- Amazon Inspector
+- Amazon GuardDuty
+- AWS Config
+- AWS Security Hub
+
+Incident Response:
+- Amazon Detective
+
+Compliance:
+- Amazon Artifact
