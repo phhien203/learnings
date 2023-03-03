@@ -105,3 +105,12 @@ Two or more factors to authenticate (figure out who you are)
 - Something you know (password)
 - Something you have (phone or hard token)
 - Something you are (fingerprint)
+
+### IAM Best Practices
+
+- Use IAM user for day-to-day work, NOT the root account
+- Use Roles to give permissions to AWS Services
+- Don't share credentials (user name, password, access keys)
+- Assign permissions to groups (made up of users) rather than to individual users
+- When assigning permissions (policies), give the least amount possible
+- Enforce MFA and strong password policies
