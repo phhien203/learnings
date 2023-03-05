@@ -138,3 +138,16 @@ Incident Response:
 
 Compliance:
 - Amazon Artifact
+
+### Distributed Denial of Services (DDoS)
+
+AWS Shield - protects against DDoS on AWS
+
+Standard
+- Free
+- Automatically protects all AWS customers
+- Protects from the most common types of DDoS attacks
+
+Advanced
+- Paid services that protects against more sophisticated attacks
+- Integrates with other services like CloudFront, Route 53, and Elastic Load Balancing
