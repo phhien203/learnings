@@ -160,3 +160,35 @@ Configure rules
 - Example:
     - Block IP addresses and values that are used by known attackers
     - A specific IP address can only send 100 requests to your application in 5 minutes
+
+### Two types of encryptions
+
+At rest: data that stored and archived on a device
+
+E.g: S3 bucket, hard disk, database
+
+In transit: data being transferred from one location to another
+
+E.g: moving data from EC instance to an S3 bucket, moving data from an on-premises data center to AWS
+
+### AWS Key Management System (KMS)
+
+- Primary service for encryption in AWS
+- AWS manages the encryption hardware, software, and keys for you
+- Integrated with many other AWS services, including EBS, S3, Redshift, and Cloudtrail
+- FIPS 140-2 Compliance: Level 2 overall
+
+
+### AWS CloudHSM (Hardware Security Module)
+
+- AWS provisions the hardware and you do everything else
+- AWS cannot access your keys
+- AWS cannot recover your keys
+- Integrated with limited number of other AWS services
+- FIPS 140-2 Compliance: Level 3 (considered more secure)
+
+### Types of keys
+
+- AWS Managed: AWS creates and manages. Used by AWS services: aws/lambda, aws/cloud9, aws/s3
+- Customer managed: customer create and manage, can create policies to rotate keys, specify who can use and manage the keys, support bring your own keys
+- Custom key stores: created with CloudHSM. You own and manage
