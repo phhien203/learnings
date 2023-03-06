@@ -151,3 +151,12 @@ Standard
 Advanced
 - Paid services that protects against more sophisticated attacks
 - Integrates with other services like CloudFront, Route 53, and Elastic Load Balancing
+
+### AWS Web Application Firewall
+
+Configure rules
+- Allow, block, monitor/count
+- IP addresses, country of origin, present of a script, URL strings, etc.
+- Example:
+    - Block IP addresses and values that are used by known attackers
+    - A specific IP address can only send 100 requests to your application in 5 minutes
