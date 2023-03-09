@@ -192,3 +192,14 @@ E.g: moving data from EC instance to an S3 bucket, moving data from an on-premis
 - AWS Managed: AWS creates and manages. Used by AWS services: aws/lambda, aws/cloud9, aws/s3
 - Customer managed: customer create and manage, can create policies to rotate keys, specify who can use and manage the keys, support bring your own keys
 - Custom key stores: created with CloudHSM. You own and manage
+
+### AWS Certificate Manager (ACM)
+
+Provision, manage, and deploy public and private SSL/TLS certificates
+
+- Public - for resources on the public internet (these certificates are free)
+- Private - for resources on private networks
+
+Loads certificates on
+- API Gateway
+- Elastic load balancers
