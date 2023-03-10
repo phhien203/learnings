@@ -10,3 +10,5 @@ Uptime: functioning time
 (Uptime + Downtime): timeframe
 
 ### Reliability
+
+Mean Time between failure = total time in service / number of failures
