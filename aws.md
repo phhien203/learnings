@@ -203,3 +203,8 @@ Provision, manage, and deploy public and private SSL/TLS certificates
 Loads certificates on
 - API Gateway
 - Elastic load balancers
+
+
+### AWS Secrets Manager
+
+The recommended way to protect secrets (user names and passwords) needed by your applications and services.
