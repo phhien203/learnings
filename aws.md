@@ -208,3 +208,7 @@ Loads certificates on
 ### AWS Secrets Manager
 
 The recommended way to protect secrets (user names and passwords) needed by your applications and services.
+
+### PII - Personally Indentifiable Information
+
+Amazon Macie: Automatically inventories S3 bucket -> Identifies and analyzes PII data using machine learning and pattern matching -> Uses finding to automate workflows and remediation
