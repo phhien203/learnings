@@ -212,3 +212,11 @@ The recommended way to protect secrets (user names and passwords) needed by your
 ### PII - Personally Indentifiable Information
 
 Amazon Macie: Automatically inventories S3 bucket -> Identifies and analyzes PII data using machine learning and pattern matching -> Uses finding to automate workflows and remediation
+
+### AWS Inspector
+
+Automatically detects and scans for software vulnerabilities and network exposure
+
+-> Makes sense of the findings and assigns a risk score
+
+-> Uses findings to automate workflows and ticketing
