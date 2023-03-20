@@ -220,3 +220,12 @@ Automatically detects and scans for software vulnerabilities and network exposur
 -> Makes sense of the findings and assigns a risk score
 
 -> Uses findings to automate workflows and ticketing
+
+
+### AWS GuardDuty
+
+Continuously analyzes network, account, and data access.
+
+-> Using machine learning, identifies, and priorities potential threats.
+
+-> Use finding to automate workflow and remediation.
